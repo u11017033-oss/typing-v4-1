@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>英打遊戲開發歷程</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: #f4f6f8; color: #333; padding: 2rem 1rem; }
+    .container { max-width: 900px; margin: 0 auto; }
+    h1 { text-align: center; margin-bottom: 2rem; color: #1a252f; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+    .card { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; justify-content: space-between; }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 8px 12px rgba(0,0,0,0.1); }
+    .card h2 { font-size: 1.25rem; margin-bottom: 0.5rem; color: #2c3e50; }
+    .card p { font-size: 0.95rem; color: #666; margin-bottom: 1.5rem; flex-grow: 1; }
+    .btn { display: inline-block; text-align: center; background: #3498db; color: #fff; text-decoration: none; padding: 0.6rem 1.2rem; border-radius: 6px; font-weight: bold; transition: background 0.2s; }
+    .btn:hover { background: #2980b9; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>英打遊戲開發歷程</h1>
+    <div class="grid">
+      <!-- 版本一卡片 -->
+      <div class="card">
+        <div>
+          <h2>版本一：靜態預告</h2>
+          <p>基礎標題與無作用按鈕，確立網頁基本結構與部署流程。</p>
+        </div>
+        <a href="https://u11017033-oss.github.io/typing-v1/" target="_blank" class="btn">前往版本一</a>
+      </div>
+
+      <!-- 版本二卡片 -->
+      <div class="card">
+        <div>
+          <h2>版本二：多媒體互動</h2>
+          <p>加入鍵盤示意圖片與點擊「嗶嗶聲」音效測試。</p>
+        </div>
+        <a href="https://u11017033-oss.github.io/typing-v2/" target="_blank" class="btn">前往版本二</a>
+      </div>
+
+      <!-- 版本三卡片（已替換為您指定的網址） -->
+      <div class="card">
+        <div>
+          <h2>版本三：ASDF 練習</h2>
+          <p>左手基礎四鍵位（A、S、D、F）即時亮鍵與打字練習遊戲。</p>
+        </div>
+        <a href="https://u11017033-oss.github.io/typing-v4/" target="_blank" class="btn">前往版本三</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
